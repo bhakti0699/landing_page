@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body
+{
+    background-color:#183380;
+}
+.container
+{
+    padding: 70px 0 0;
+}
+.logo
+{
+    width: 168px;
+    height: 59px;
+    margin: auto auto auto auto;
+    object-fit: contain;
+}
+.main
+{
+    width: 400px;
+    height: 414px;
+    margin: 60px auto 71px;
+    padding: 30px 46px 38px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color:#25439d;
+}
+.main .label
+{
+    width: 318px;
+    height: 117px;
+    margin: 0 0 30px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+button.log-in
+{
+    width: 300px;
+    height: 45px;
+    margin: 0 0 30px;
+    padding: 12px 120px 12px;
+    border-radius: 22.5px;
+    background-color: #20cdbb;
+    border: none;
+    color: #fff;
+}
+.line
+{
+    width: 128px;
+    height: 1px;
+    margin: 6px 14px 7px 0;
+    opacity: 0.1;
+    border: solid 1px #ffffff;
+    float: left;
+}
+.or
+{
+    width: 16px;
+  height: 14px;
+  margin: 0 14px;
+  opacity: 0.15;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.line1
+{
+    width: 128px;
+    height: 1px;
+    margin: 6px 0 7px 14px;
+    opacity: 0.1;
+    border: solid 1px #ffffff;
+    float: right;
+}
+.dont_have
+{
+    width: 169px;
+    height: 20px;
+    margin: 25px 65.5px 15px;
+    opacity: 0.5;
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.sign-up
+{
+    width: 300px;
+    height: 45px;
+    margin: 15px 0 0;
+    padding: 12px 119px 11px 120px;
+    border-radius: 22.5px;
+    background-color: #51a8d1;
+    border: none;
+    color: #fff;
+}
