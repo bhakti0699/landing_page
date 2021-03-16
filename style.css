@@ -4,6 +4,7 @@
 }
 html,body{
     height: 100%;
+    width: 100%;
 }
 body
 {
@@ -17,14 +18,14 @@ body
 {
     width: 168px;
     height: 59px;
-    margin: auto auto auto auto;
+    margin: 0 auto 20px;
     object-fit: contain;
 }
 .main
 {
     width: 400px;
     height: 414px;
-    margin: 61px auto 75px;
+    margin: 61px auto 40px;
     padding: 30px 46px 40px;
     border-radius: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -58,13 +59,30 @@ button.log-in
 }
 .line
 {
+    height: 14px;
+  opacity: 0.15;
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; 
+}
+.line::before {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #ffffff;
     width: 128px;
     height: 1px;
-    margin: 6px 14px 7px 0;
-    opacity: 0.1;
-    border: solid 1px #ffffff;
-    float: left;
-}
+    margin: 6px 9px 7px 0; }
+  
+  .line::after {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #ffffff;
+    width: 128px;
+    height: 1px;
+    margin: 6px 0 7px 9px; }
+  
 .or
 {
     width: 16px;
@@ -117,10 +135,11 @@ button.log-in
     border: none;
     color: #fff;
 }
-@media screen and (device-width:320px) and (device-height:640px) and (-webkit-device-pixel-ratio:2)
-{
+@media screen and (max-width: 360px) {
     .main
     {
-        
+        margin-left: 10px;
+        margin-right: 10px;
     }
+
 }
