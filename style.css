@@ -117,3 +117,10 @@ button.log-in
     border: none;
     color: #fff;
 }
+@media screen and (device-width:320px) and (device-height:640px) and (-webkit-device-pixel-ratio:2)
+{
+    .main
+    {
+        
+    }
+}
