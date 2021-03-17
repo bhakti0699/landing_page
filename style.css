@@ -84,13 +84,3 @@ button.log-in
     border: none;
     color: #fff;
 }
-@media screen and (min-width:360px)
-{
-    .link::before
-    {
-        width: 70px;
-    }
-    .link::after{
-        width:70px;
-    }
-}
