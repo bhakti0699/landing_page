@@ -50,7 +50,7 @@ button.log-in
     display: inline-block;
     content: "";
     border-bottom: 1px solid #ffffff;
-    width: 128px;
+    width: 40%;
     height: 1px;
     margin: 6px 9px 7px 0; }
   
@@ -58,7 +58,7 @@ button.log-in
     display: inline-block;
     content: "";
     border-bottom: 1px solid #ffffff;
-    width: 128px;
+    width: 40%;
     height: 1px;
     margin: 6px 0 7px 9px; }
   
@@ -83,4 +83,14 @@ button.log-in
     background-color: #51a8d1;
     border: none;
     color: #fff;
+}
+@media screen and (min-width:360px)
+{
+    .link::before
+    {
+        width: 70px;
+    }
+    .link::after{
+        width:70px;
+    }
 }
