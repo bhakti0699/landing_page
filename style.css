@@ -88,6 +88,7 @@ button.sign-up
 }
 .footer
 {
+    position: fixed;
     background-color:#1c2646;
 }
 .footer .text
