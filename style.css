@@ -9,6 +9,14 @@ body
 {
     background-color:#183380;
 }
+.login_container
+{
+    background-color: #f7f8fa;
+}
+.header
+{
+    background-color: #183380;
+}
 .main
 {
     border-radius: 4px;
@@ -118,4 +126,132 @@ button.sign-up
     {
         text-align: center;
     }
+}
+.login_logo
+{
+    width: 65.9px;
+    height: 23px;
+}
+.login_label
+{
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.lets-get-started
+{
+    width: 216px;
+    height: 38px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+}
+.login_section_main
+{
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.email_or_username
+{
+    opacity: 0.3;
+    font-family: NunitoSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+}
+.email_input
+{
+    width: 100%;
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    border-width: 0 0 1px;
+    border-color:darkgray;
+    outline: 0;
+}
+.password
+{
+    opacity: 0.3;
+    font-family: NunitoSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;   
+}
+.password_input
+{
+    width: 100%;
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    border-width: 0 0 1px;
+    border-color:darkgray;
+    outline: 0;
+}
+.forgot_password
+{
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #51a8d1;
+}
+.login_label_signup
+{
+    text-align: center;
+}
+.login_label_signup::before
+{
+    content: 'Don’t have an account yet?';
+    text-align: center;
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight:700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #242a41;
+    padding-right: 5px;
+}
+.login_label_signup::after
+{
+    content: 'Sign Up';
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #51a8d1;
+    text-align: center;
 }
