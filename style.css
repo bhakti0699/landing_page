@@ -86,3 +86,35 @@ button.sign-up
     border: none;
     color: #fff;
 }
+.footer
+{
+    background-color:#1c2646;
+}
+.footer .text
+{
+    opacity: 0.7;
+    font-family: NunitoSans-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#ffffff;
+}
+.social_icons
+{
+    justify-content: end;
+    color: #ffffff;
+    text-align: end;
+}
+@media only screen and (max-width:768px)
+{
+    .footer .text{
+        text-align: center;
+    }
+    .social_icons
+    {
+        text-align: center;
+    }
+}
