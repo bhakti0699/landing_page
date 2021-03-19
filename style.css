@@ -119,6 +119,9 @@ button.sign-up
 }
 @media only screen and (max-width:768px)
 {
+    .header{
+        text-align: center;
+    }
     .footer .text{
         text-align: center;
     }
@@ -158,7 +161,7 @@ button.sign-up
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
-.email_or_username
+.input_labels
 {
     opacity: 0.3;
     font-family: NunitoSans;
@@ -184,18 +187,6 @@ button.sign-up
     border-width: 0 0 1px;
     border-color:darkgray;
     outline: 0;
-}
-.password
-{
-    opacity: 0.3;
-    font-family: NunitoSans;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #242a41;   
 }
 .password_input
 {
@@ -226,6 +217,7 @@ button.sign-up
 }
 .login_label_signup
 {
+    text-decoration: none;
     text-align: center;
 }
 .login_label_signup::before
@@ -237,7 +229,6 @@ button.sign-up
     font-weight:700;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.43;
     letter-spacing: normal;
     color: #242a41;
     padding-right: 5px;
@@ -254,4 +245,97 @@ button.sign-up
     letter-spacing: normal;
     color: #51a8d1;
     text-align: center;
+    text-decoration: underline;
+}
+.create_ac_account
+{
+    width: 238px;
+    height: 38px;
+    font-family: NunitoSans;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    text-align: center;
+}
+.firstname_input
+{
+    width: 100%;
+    height: 22px;
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    border-width: 0 0 1px;
+    border-color:darkgray;
+    outline: 0;
+}
+.lastname_input
+{
+    width: 100%;
+    height: 22px;
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242a41;
+    justify-content: end;
+    border-width: 0 0 1px;
+    border-color:darkgray;
+    outline: 0;
+}
+.radio_label
+{
+  opacity: 0.3;
+  font-family: NunitoSans;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.login_label_login
+{
+    text-align: center;
+    text-decoration: none;
+}
+.login_label_login::before
+{
+    content: 'Already have an account?';
+    text-align: center;
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight:700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #242a41;
+    padding-right: 5px;
+}
+.login_label_login::after
+{
+    content: 'Log In';
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #51a8d1;
+    text-align: center;
+    text-decoration: underline;
 }
