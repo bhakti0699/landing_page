@@ -91,15 +91,15 @@
             if(inputType ==="password")
             {
                 $("#password").attr('type','text');
-                $('i#icon').removeClass('fa fa-eye-slash');
-                $('i#icon').addClass("fa fa-eye");
+                $('i#icon').removeClass('fa fa-eye');
+                $('i#icon').addClass("fa fa-eye-slash");
                 $("#password").addClass('password_input pb-1');
             }
             else
             {
                 $("#password").attr('type','password');
-                $('i#icon').removeClass('fa fa-eye');
-                $('i#icon').addClass("fa fa-eye-slash");
+                $('i#icon').removeClass('fa fa-eye-slash');
+                $('i#icon').addClass("fa fa-eye");
                 $('#password').addClass("password_input pb-1");
             }
         });
